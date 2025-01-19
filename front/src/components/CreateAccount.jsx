@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { FirebaseContext } from '../context/FirebaseContext';
+// import { FirebaseContext } from '../context/FirebaseContext';
 
 const CreateAccount = () => {
   const { addUser } = useContext(FirebaseContext);
